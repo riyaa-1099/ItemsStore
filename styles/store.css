@@ -1,0 +1,44 @@
+#block-2{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+
+}
+#mobile_list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid rgb(79, 76, 76);
+    width: 70%;
+}
+.mobile{
+text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+.mobile>image{
+    width: 100px;
+}
+#navbar,#navbar div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(32, 30, 30);
+    color: rgb(252, 249, 249);
+    padding: 3px;
+    margin: 0px;
+
+}
+#navbar div>h2{
+    padding: 3px 18px;
+}
+
+button{
+    background-color: rgb(174, 174, 215);
+}
+.remove{
+    background-color: rgb(200, 200, 218);
+    border: 1px solid black;
+    padding: 2px;
+}

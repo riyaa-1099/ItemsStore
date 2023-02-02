@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/store.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <h2>Mobile Store</h2>
+   <div>
+    <h2><a id="home" href="index.html">Home</a> </h2>
+    <h2><a id="store" href="store.html"> Store</a></h2>
+   </div>
+    </div>
+    <div id="block-2">
+      <div id="sort_filter">
+        <button onclick="sortlh()" id="sort_lth">
+          Sort Price Low to High
+        </button>
+        <br>
+        <br>
+        <button onclick="sorthl()" id="sort_htl">
+          Sort Price High to Low
+        </button>
+      </div>
+
+      <div id="mobile_list"></div>
+    </div>
+    <script src="./src/scripts/store.js"></script>
+  </body>
+</html>

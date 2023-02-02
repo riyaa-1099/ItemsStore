@@ -1,0 +1,23 @@
+#navbar,#navbar div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(32, 29, 29);
+    color: rgb(252, 249, 249);
+    padding: 3px;
+    margin: 0px;
+
+}
+#navbar div>h2{
+    padding: 3px 18px;
+
+}
+#input_data{
+    text-align: center;
+    margin:25px auto;
+}
+#mobile_form>input{
+    font-size: 20px;
+margin: 10px auto;
+display: flex;
+flex-direction: column;
+}
